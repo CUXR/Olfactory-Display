@@ -1,4 +1,4 @@
-24747882886822647
+24737363126385037
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55229,6 +55229,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Custom
+CUXR_Logo_Halftone
+
+
+0
+0
+0
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -91195,20 +91202,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SeeedStudio_XIAO_nRF52840_v1.1_KiCAD
-XIAO-nRF52840-DIP
-
-
-0
-28
-14
-SeeedStudio_XIAO_nRF52840_v1.1_KiCAD
-XIAO-nRF52840-SMD
-
-
-0
-22
-22
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -99522,41 +99515,6 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
-0
-2
-2
-footprints
-CONV_2S7BE_0512S3U
-
-
-0
-4
-4
-footprints
-SOT_12UW-7_DIO
-
-DMG1012UW-7 
-0
-3
-3
-footprints
-SOT_12UW-7_DIO-L
-
-DMG1012UW-7 
-0
-3
-3
-footprints
-SOT_12UW-7_DIO-M
-
-DMG1012UW-7 
-0
-3
-3
-footprints_connector
-CONN2_B2B-PH-K-S_JST
-
-B2B-PH-K-S 
 0
 2
 2
