@@ -1789,26 +1789,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 107.95) (xy 148.59 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a294c07-6694-4e32-a8d7-f1a50612643b")
-	)
-	(wire
-		(pts
-			(xy 163.83 104.14) (xy 167.64 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86840f64-5a04-4cf6-a1f6-3b8964c41c7c")
-	)
-	(wire
-		(pts
 			(xy 87.63 144.78) (xy 92.71 144.78)
 		)
 		(stroke
@@ -1866,16 +1846,6 @@
 			(type default)
 		)
 		(uuid "d3ad19e5-9c90-4317-993a-338f3f81519b")
-	)
-	(wire
-		(pts
-			(xy 163.83 104.14) (xy 163.83 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d40e7fc6-9e2b-4dca-946b-a2e231bcd50d")
 	)
 	(wire
 		(pts
@@ -2055,28 +2025,6 @@
 			)
 		)
 	)
-	(global_label "Battery 2 In"
-		(shape bidirectional)
-		(at 218.44 87.63 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "16dd7c2e-6821-462c-b869-558eb81e4db1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 103.3378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Atomizer 2 Out"
 		(shape bidirectional)
 		(at 135.89 49.53 0)
@@ -2099,7 +2047,7 @@
 			)
 		)
 	)
-	(global_label "Battery 2 In"
+	(global_label "Battery 1 In"
 		(shape bidirectional)
 		(at 187.96 127 0)
 		(fields_autoplaced yes)
@@ -2341,28 +2289,6 @@
 			)
 		)
 	)
-	(global_label "Battery 2 In"
-		(shape bidirectional)
-		(at 189.23 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d01db3fb-380c-4325-a7dc-f35a9d14a350")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.7607 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Atomizer 1 Out"
 		(shape bidirectional)
 		(at 135.89 35.56 0)
@@ -2376,28 +2302,6 @@
 		(uuid "d58b063e-7c92-4391-9f22-c00fc5a4230a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.5007 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Battery 2 In"
-		(shape bidirectional)
-		(at 167.64 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d7731181-4bb3-43d7-af91-eaf074913438")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.1707 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2333,7 @@
 			)
 		)
 	)
-	(global_label "Battery 2 In"
+	(global_label "Battery 1 In"
 		(shape bidirectional)
 		(at 264.16 39.37 0)
 		(fields_autoplaced yes)
@@ -3336,72 +3240,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ecf28dd-7f76-4869-bf8a-f1296a45392c")
-		(property "Reference" "#PWR07"
-			(at 189.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06b1b410-084f-4a63-b5dd-1995434e1cd5")
-		)
-		(instances
-			(project "OlfactoryDisplay"
-				(path "/eeb39362-0365-47ee-a49e-c46f3ce454b4"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 189.23 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3667,73 +3505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 218.44 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75348b86-4231-47a3-b684-33330e3cb8f2")
-		(property "Reference" "TP1"
-			(at 220.98 83.0579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 220.98 85.5979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 223.52 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 218.44 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5c76e9b-aacb-4710-93b0-7c73b764dc5f")
-		)
-		(instances
-			(project ""
-				(path "/eeb39362-0365-47ee-a49e-c46f3ce454b4"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "2025-04-15_22-26-33:B2B-PH-K-S")
 		(at 135.89 49.53 0)
 		(mirror y)
@@ -3932,78 +3703,6 @@
 			(project "OlfactoryDisplay"
 				(path "/eeb39362-0365-47ee-a49e-c46f3ce454b4"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2025-04-15_22-26-33:B2B-PH-K-S")
-		(at 189.23 46.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a084fb5f-373a-4b19-8141-5177b42c8aa0")
-		(property "Reference" "J6"
-			(at 175.26 46.9899 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-PH-K-S"
-			(at 175.26 49.5299 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints_connector:CONN2_B2B-PH-K-S_JST"
-			(at 189.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "B2B-PH-K-S"
-			(at 189.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1ffe499c-fca5-478b-9217-04ff50904027")
-		)
-		(pin "1"
-			(uuid "33f9a9ac-9aaf-49c3-928b-f5da6d8f7f49")
-		)
-		(instances
-			(project "OlfactoryDisplay"
-				(path "/eeb39362-0365-47ee-a49e-c46f3ce454b4"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4336,73 +4035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 245.11 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5b19feb-5158-48e7-a516-bffd0b1c97a6")
-		(property "Reference" "TP4"
-			(at 247.65 83.0579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 247.65 85.5979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 250.19 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 245.11 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "016c7d56-5ea5-4256-af44-e5fccdf3aef0")
-		)
-		(instances
-			(project "OlfactoryDisplay_main_v2"
-				(path "/eeb39362-0365-47ee-a49e-c46f3ce454b4"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 151.13 111.76 90)
 		(unit 1)
@@ -4614,72 +4246,6 @@
 			(project "OlfactoryDisplay"
 				(path "/eeb39362-0365-47ee-a49e-c46f3ce454b4"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 245.11 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7d7fe12-ce87-46b6-a2ac-474b85ba8fb0")
-		(property "Reference" "#PWR014"
-			(at 245.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ad89688-4ce7-4532-91bb-30739d5d9ab5")
-		)
-		(instances
-			(project "OlfactoryDisplay_main_v2"
-				(path "/eeb39362-0365-47ee-a49e-c46f3ce454b4"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
