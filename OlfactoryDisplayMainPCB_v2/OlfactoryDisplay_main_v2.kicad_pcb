@@ -75,7 +75,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/Users/zachriiff/Desktop/CUXR/Olfactory-Display/Gerber/")
+			(outputdirectory "../Gerber/gerber-v2/")
 		)
 	)
 	(net 0 "")
@@ -355,7 +355,7 @@
 		(at 94 97.2202 180)
 		(tags "DMG1012UW-7 ")
 		(property "Reference" "U2"
-			(at 0 0 180)
+			(at 0 -0.0107 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ec8e19c8-b0aa-4756-a880-6bd4135d01c8")
@@ -740,7 +740,7 @@
 			(uuid "70022132-6b31-4745-959a-1900fb335be8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 -0.0107 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ab4ba59e-18dd-4d80-bec0-91a78dd0b29e")
@@ -1034,7 +1034,7 @@
 		(at 117.65 99.7202)
 		(tags "DMG1012UW-7 ")
 		(property "Reference" "U1"
-			(at 0 -0.0983 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5a04bcfb-3513-496c-be07-ecf707293cd2")
@@ -1419,7 +1419,7 @@
 			(uuid "058cb96d-34ba-4967-8e25-3e1ea2ecf8de")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.0983 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "61b8539c-bcce-4d14-9412-326d68fcee2f")
@@ -3359,7 +3359,7 @@
 		(at 117.65 94.26935)
 		(tags "DMG1012UW-7 ")
 		(property "Reference" "U5"
-			(at 0 -0.183245 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "77653722-891d-43c5-8fdc-2d902933eee1")
@@ -3744,7 +3744,7 @@
 			(uuid "0ffd0c29-1fdb-4bbc-a7cb-82e838a28561")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.183245 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c825cb84-69c3-4b6e-9583-148463bdd562")
@@ -36723,7 +36723,7 @@
 		(at 117.65 88.8185)
 		(tags "DMG1012UW-7 ")
 		(property "Reference" "U6"
-			(at 0 -0.095772 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2a32b3f3-a035-4e5f-b5bd-844e6beada7f")
@@ -37108,7 +37108,7 @@
 			(uuid "c62e521d-1d64-47d2-bd26-e3992bcc24ff")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.095772 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "672de8ea-9be1-4cfe-b881-fc6e1e65fc3c")

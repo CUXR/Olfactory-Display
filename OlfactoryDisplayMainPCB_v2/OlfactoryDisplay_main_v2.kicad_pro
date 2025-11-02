@@ -449,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OlfactoryDisplay.kicad_pro",
+    "filename": "OlfactoryDisplay_main_v2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -485,7 +485,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/Users/zachriiff/Desktop/CUXR/Olfactory-Display/Gerber/",
+      "plot": "../Gerber/gerber-v2/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
